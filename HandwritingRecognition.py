@@ -7,6 +7,8 @@ from sklearn import svm
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import scipy.io
 
+# NOTICE: can't upload file to github too large. download from https://www.nist.gov/itl/products-and-services/emnist-dataset
+
 def load_emnist(file_path='emnist-digits.mat'):
     """
     Loads training and test data with ntr and nts training and test samples
